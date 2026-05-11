@@ -13,18 +13,18 @@ aiosqlite==0.20.0
 nltk==3.8.1
 scikit-learn==1.5.0
 
-# Numerical
+# Numerical Computing
 numpy==1.26.4
 scipy==1.13.0
 pandas==2.2.2
 networkx==3.3
 
-# Quantum
+# Quantum Computing
 qiskit==1.1.0
 qiskit-algorithms==0.3.0
 qiskit-optimization==0.6.1
 
-# Visualisation
+# Visualization
 matplotlib==3.9.0
 seaborn==0.13.2
 plotly==5.22.0
