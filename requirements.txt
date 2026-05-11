@@ -11,11 +11,10 @@ aiosqlite==0.20.0
 
 # NLP & Text Processing
 nltk==3.8.1
-scikit-learn==1.5.0
+
 
 # Numerical
-numpy==1.26.3
-scipy==1.11.4
+numpy==1.26.3git add .
 pandas==2.2.2
 networkx==3.3
 
