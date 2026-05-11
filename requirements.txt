@@ -1,0 +1,43 @@
+# Web Framework
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9
+pydantic==2.7.1
+pydantic-settings==2.2.1
+
+# Database
+sqlalchemy==2.0.30
+aiosqlite==0.20.0
+
+# NLP & Text Processing
+nltk==3.8.1
+spacy==3.7.4
+scikit-learn==1.4.2
+gensim==4.3.2
+
+# Numerical
+numpy==1.26.4
+scipy==1.13.0
+pandas==2.2.2
+networkx==3.3
+
+# Quantum (CPU-only, no Aer)
+qiskit==1.1.0
+qiskit-algorithms==0.3.0
+qiskit-optimization==0.6.1
+
+# Visualisation (no wordcloud)
+matplotlib==3.9.0
+seaborn==0.13.2
+plotly==5.22.0
+
+# Utilities
+python-dotenv==1.0.1
+httpx==0.27.0
+aiofiles==23.2.1
+joblib==1.4.2
+tqdm==4.66.4
+
+# Testing
+pytest==8.2.0
+pytest-asyncio==0.23.7
