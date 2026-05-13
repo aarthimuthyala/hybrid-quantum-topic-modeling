@@ -6,7 +6,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://hqc-backend.onrender.com/api/v1",
+  baseURL: "http://127.0.0.1:8000",
   headers: {
     "Content-Type": "application/json",
   },
@@ -17,7 +17,7 @@ const api = axios.create({
 // ─────────────────────────────────────────────────────────────
 const BASE_URL =
   import.meta.env.VITE_API_BASE_URL ||
-  "https://hqc-backend.onrender.com/api/v1";
+  "http://127.0.0.1:8000/api/v1";
 
 const client = axios.create({
   baseURL: BASE_URL,
